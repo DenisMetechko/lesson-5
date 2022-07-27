@@ -1,0 +1,47 @@
+.position-block {
+  width: 800px;
+  height: 292px;
+  border: 1px solid #c5c5c5;
+  margin: auto;
+}
+.position-block-list {
+  position: relative;
+}
+.position-block-list__item {
+  line-height: 40px;
+  background-color: palevioletred;
+  text-align: center;
+  color: whitesmoke;
+  /* margin-bottom: 10px; */
+}
+.position-block-list__item:last-child {
+  margin-bottom: 0;
+}
+.position-block-list__item-1 {
+}
+.position-block-list__item-2 {
+  background-color: coral;
+  /* position: static;
+  top: 0;
+  left: 0; */
+  /* position: relative;
+  top: 20px;
+  left: 20px; */
+  /* z-index: 3; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+}
+.position-block-list__item-3 {
+  background-color: cornflowerblue;
+  position: relative;
+  /* z-index: 9999; */
+}
+.position-block-list__item-4 {
+  background-color: yellow;
+}
+.position-block-list__item-5 {
+  background-color: tomato;
+}
